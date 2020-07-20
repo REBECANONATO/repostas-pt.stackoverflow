@@ -1,0 +1,12 @@
+<div ng-controller="DemoCtrl as ctrl" layout="column" ng-cloak="" ng-app="MyApp">
+  <md-content class="md-padding" layout="column">
+    <h2>Static chips.</h2>
+
+    <md-chips input-aria-label="Esportes favoritos" ng-repeat="chipText in ctrl.chipText">
+      <md-chip>
+               {{chipText.descricao}}
+      </md-chip>
+    </md-chips>
+
+  </md-content>
+</div>
